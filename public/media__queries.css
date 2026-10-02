@@ -1,0 +1,437 @@
+@media (700px < width < 999px) {
+    :root {
+        --lightbrown: #B06527;
+        --lightgray: #B4B8BE;
+        --darkgray: #846E5B;
+        --lightblue: #3989A7;
+        --black: #000000;
+        --white: #fff;
+
+        --fs-100: .75rem;
+        --fs-200: 1rem;
+        --fs-300: 1.125rem;
+        --fs-400: 1.325rem;
+        --fs-500: 1.625rem;
+        --fs-600: 2rem;
+        --fs-700: 2.325rem;
+        --fs-800: 3rem;
+        --fs-900: 3.125rem;
+    }
+    /* FONTS */
+    h1 {
+        font-size: var(--fs-700);
+    }
+
+    p {
+        font-size: var(--fs-200);
+    }
+
+    /* WHITE FONTS*/
+    h1,
+    .hero__description,
+    .hero__btn {
+        color: var(--white);
+    }
+
+    /* HEADER */
+    h2 {
+        padding-bottom: 1.25em;
+        text-align: center;
+    }
+
+    h3 {
+        padding: 1em 0 0.5em;
+    }
+
+    /* NAVIGATION SECTION */
+    
+    .nav-toggle {
+        display: none;
+    }
+
+    .nav__main {
+        visibility: visible;
+        height: auto;
+        position: relative;
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav__list--main {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav__item--main {
+        padding: 0;
+        display: flex;
+        margin-left: 1.25em;
+        margin-bottom: .5em;
+    }
+
+    .row__nav {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    /* HERO SECTION */
+    #hero {
+    padding-top: 5em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                    url('images/Hero\ Image-min.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 90vh;
+    height: auto;
+    overflow: hidden;
+    }
+
+    .hero__header--wrapper {
+        width: 100%;
+        max-width: 370px;
+    }
+
+    .hero__description--wrapper {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    /* FEATURES SECTION */
+
+    .features__header--container {
+        max-width: 100%;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .col__features img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* FEEDBACK SECTION */
+    .col-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* CONTACT SECTION */
+    .img-email {
+        width: 300px;
+    }
+
+    .grid__item--7 {
+        grid-row: 1 / 9;      /* Spans from row line 1 to 8 (8 rows total) */
+        grid-column: 3 / 4;   /* Adjust column as needed */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .span-2 {
+        grid-column: span 2;
+    }
+
+    /* CONDOMINIUM INFO SECTION */
+    .grid-container-image {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5em;
+    }
+
+    .grid-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5em;
+    }
+
+    .large-image img {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+        display: block;
+    }
+
+    .small-image img {
+        width: 100%;
+        aspect-ratio: 4 / 2.75;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .grid-images .small-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* INFO SECTION */
+    #info {
+        padding-bottom: 3em;
+    }
+
+    .info__item img {
+        max-width: 20px;
+        width: 100%;
+    }
+}
+
+@media (1000px < width < 1900px) {
+    /* FONTS */
+    h1 {
+        font-size: var(--fs-800);
+    }
+
+    p {
+        font-size: var(--fs-400);
+    }
+
+    /* WHITE FONTS*/
+    h1,
+    .hero__description,
+    .hero__btn {
+        color: var(--white);
+    }
+
+    /* HEADER */
+    h2 {
+        padding-bottom: 1.25em;
+        text-align: center;
+        font-size: var(--fs-600)
+    }
+
+    h3 {
+        padding: 1em 0 0.5em;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1900px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    /* NAVIGATION SECTION */
+    .nav-toggle {
+        display: none;
+    }
+
+    .nav__main {
+        visibility: visible;
+        height: auto;
+        position: relative;
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .nav__list--main {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav__item--main {
+        padding: 0;
+        display: flex;
+        margin-left: 1.25em;
+        margin-bottom: .5em;
+    }
+
+    .row__nav {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    /* HERO SECTION */
+    #hero {
+    padding-top: 5em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                    url('images/Hero\ Image-min.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    }
+
+    .hero__btn {
+        font-size: var(--fs-300);
+    }
+
+    .hero__description {
+        margin: .5em 0;
+    }
+
+    /* ABOUT SECTION */
+    #about {
+        padding-top: 4em;
+    }
+
+    .image__about {
+        width: 100%;
+        height: auto;
+        border-radius: 0.5em;
+    }
+
+    .f-row__header {
+        display: flex;
+        justify-content:center;
+        align-items: flex-end;
+        padding-right: 2em;
+    }
+
+    .g-row {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .row-span-2 {
+        grid-row: span 2;
+    }
+
+    .about__description {
+        text-align: center;
+        width: 100%;
+        max-width: 500px;
+        padding: 0;
+        padding-right: 2em;
+    }
+
+
+    /* FEATURES SECTION */
+    .features__header--container {
+        max-width: 100%;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .col__features img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* FEEDBACK SECTION */
+    .col-2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .grid-2r-2c {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5em;
+        margin-top: 2.5em;
+    }
+
+    .col__features img {
+        width: 100%;
+        height: auto;
+        border-radius: 0.5em;
+    }
+
+    /* CONTACT SECTION */
+    .img-email {
+        width: 500px;
+        height: auto;
+    }
+
+    .grid-container {
+        width: 800px;
+        max-width: 1900px;
+    }
+
+    .grid__item--7 {
+        grid-row: 1 / 9;      /* Spans from row line 1 to 8 (8 rows total) */
+        grid-column: 3 / 4;   /* Adjust column as needed */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .span-2 {
+        grid-column: span 2;
+    }
+
+    .contact__wrapper {
+        display: grid;
+        place-items: center;
+    }
+
+    .email__field {
+        font-size: 1rem;
+    }
+
+    .email__image--wrapper {
+        display: block;
+        margin: auto 0;
+    }
+
+    .f-row {
+        display: flex;
+        flex-direction: row;
+        gap: 5em;
+    }
+
+    .f-col .f-container:nth-child(2) {
+        order: 2;
+    }
+
+    /* CONDOMINIUM SECTION */
+    #images__section {
+    padding-top: 8em;
+    }
+
+    .grid-container-image {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5em;
+    }
+
+    .large-image img {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+        display: block;
+    }
+
+    .small-image img {
+        width: 100%;
+        aspect-ratio: 4 / 2.75;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .grid-images .small-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .grid-images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5em;
+    }
+
+    /* INFO SECTION */
+    #info {
+        padding-bottom: 3em;
+    }
+
+    .info__item img {
+        max-width: 20px;
+        width: 100%;
+    }
+}
